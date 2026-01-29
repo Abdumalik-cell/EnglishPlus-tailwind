@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="src/output.css" />
+		<link rel="stylesheet" href="src/fonts/stylesheet.css" />
+	</head>
+	<body class="font-[Gilroy] bg-[#EBF4FF]">
+		<header class="pt-1.5 pb-1.5 bg-[#249DD833]">
+			<div class="flex items-center max-w-300 mx-auto px-5">
+				<a href="index.html" class="flex items-center flex-shrink-0">
+					<img src="src/images/header/logo1.svg" alt="logo" class="flex w-8 sm:w-auto" />
+					<img src="src/images/header/logo-text.svg" alt="logo text" class="flex w-20 sm:w-auto" />
+				</a>
+
+				<ul class="hidden xl:flex items-center gap-6 mx-14">
+					<li class="text-xs font-medium">
+						<a href="#">About Us</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">Courses</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">Teachers</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">Reviews</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">Partners</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">News</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">FAQ</a>
+					</li>
+					<li class="text-xs font-medium">
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+
+				<button
+					class="hidden md:block text-[#FFFfff] px-8 lg:px-13 py-3 font-medium bg-[#249DD8] rounded-2xl ml-auto hover:bg-transparent border hover:border hover:border-[#249DD8] hover:text-[#249DD8] transition-all cursor-pointer">
+					Enroll Now
+				</button>
+
+				<button id="mobile-menu-btn" class="md:hidden p-2 ml-auto" aria-label="Toggle menu">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+					</svg>
+				</button>
+			</div>
+
+			<nav id="mobile-menu" class="hidden xl:hidden border-t border-[#249DD8]/20 mt-2">
+				<div class="max-w-300 mx-auto px-5 py-4 flex flex-col gap-3">
+					<a href="#" class="text-sm font-medium py-2">About Us</a>
+					<a href="#" class="text-sm font-medium py-2">Courses</a>
+					<a href="#" class="text-sm font-medium py-2">Teachers</a>
+					<a href="#" class="text-sm font-medium py-2">Reviews</a>
+					<a href="#" class="text-sm font-medium py-2">Partners</a>
+					<a href="#" class="text-sm font-medium py-2">News</a>
+					<a href="#" class="text-sm font-medium py-2">FAQ</a>
+					<a href="#" class="text-sm font-medium py-2">Contact Us</a>
+					<button class="md:hidden text-[#FFFfff] px-8 py-3 font-medium bg-[#249DD8] rounded-2xl mt-2">Enroll Now</button>
+				</div>
+			</nav>
+		</header>
+		<section class="bg-[#EBF4FF]">
+			<div class="max-w-300 mx-auto px-5 md:flex items-center justify-between">
+				<div class="pb-[100px]">
+					<h1 class="font-[Gilroy] text-3xl md:text-4xl lg:text-[40px] leading-[115%] font-semibold pt-20 pb-10 max-w-[460px]">
+						Your Gateway to Global Opportunities
+					</h1>
+
+					<p class="font-[Gilroy] text-sm md:text-base lg:text-2xl pb-[104px] font-medium">Learn English, Change Your Future</p>
+
+					<div class="mt-6 flex gap-6 lg:gap-10">
+						<button
+							class="py-3 px-[52px] bg-[#249DD8] font-medium text-base text-[#ffffff] rounded-2xl hover:bg-transparent border-2 border-[#249DD8] hover:border-2 hover:border-[#249DD8] hover:text-[#249DD8] duration-300 transition-all cursor-pointer">
+							Enroll Now
+						</button>
+						<button
+							class="border-2 border-[#249DD8] text-[#249DD8] px-[52px] py-3 rounded-2xl hover:duration-300 hover:text-white hover:bg-[#249DD8] hover:border-2 transition-all cursor-pointer">
+							Learn More
+						</button>
+					</div>
+				</div>
+				<div>
+					<img class="w-full" src="src/images/hero/photo hero section.png" alt="" />
+				</div>
+			</div>
+		</section>
+
+		<section
+			class="bg-[#254279] w-full rounded-tl-[100px] rounded-br-[100px] md:rounded-tl-[100px] md:rounded-br-[100px] sm:rounded-tl-[50px] sm:rounded-br-[50px] relative z-[1] overflow-hidden px-5">
+			<div class="max-w-[1000px] mx-auto relative">
+				<div
+					class="w-[304px] h-[300px] sm:w-[200px] sm:h-[200px] bg-[#8ED7FA99] rounded-full absolute -left-10 -top-10 sm:-left-20 sm:-top-20 z-[-1]"></div>
+
+				<div class="max-w-[916px] w-full pb-10 mx-auto">
+					<h2 class="text-white font-medium text-4xl sm:text-3xl leading-[100%] pt-8 pb-6 text-center">About Us</h2>
+
+					<ul class="flex gap-6 flex-col md:flex-row justify-center md:justify-between">
+						<li
+							class="w-full md:max-w-[396px] py-6 px-8 rounded-[20px] bg-white border-3 border-[#05698D] relative overflow-hidden transition-all duration-500 /* Senior Shadow: Faqat rasmda ko'ringan ko'k nurlanish effekti */ shadow-[0_0_25px_rgba(76,195,255,0.4),0_10px_30px_-5px_rgba(37,66,121,0.1)] hover:shadow-[0_0_35px_rgba(76,195,255,0.6)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h2 class="text-[#254279] font-bold text-2xl pb-3">Mission</h2>
+								<p class="text-gray-700 text-base leading-relaxed">
+									At <span class="font-bold text-[#254279]">English Plus,</span>
+									our mission is to provide world-class English language education, empowering individuals to reach their highest
+									potential.
+								</p>
+							</div>
+						</li>
+
+						<li
+							class="w-full md:max-w-[396px] py-6 px-8 rounded-[20px] bg-white border-3 border-[#05698D] relative overflow-hidden transition-all duration-500 shadow-[0_0_25px_rgba(76,195,255,0.4),0_10px_30px_-5px_rgba(37,66,121,0.1)] hover:shadow-[0_0_35px_rgba(76,195,255,0.6)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h2 class="text-[#254279] font-bold text-2xl pb-3">Vision</h2>
+								<p class="text-gray-700 text-base leading-relaxed">
+									Our vision is to become a premier English language school known for its commitment to excellence and innovation.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="pb-14">
+					<h2 class="text-white font-medium text-2xl pb-3 text-center">Core Values</h2>
+
+					<p class="text-white text-base pb-8 text-center max-w-[600px] mx-auto">
+						Our core values shape every interaction and course we offer:
+					</p>
+
+					<ul class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 px-2">
+						<li
+							class="group relative flex flex-col items-start overflow-hidden h-[160px] sm:h-[206px] rounded-[18px] sm:rounded-[24px] p-4 sm:p-6 transition-all duration-500 ease-out bg-[linear-gradient(135deg,#AFE5FF_0%,#8ED7FA_100%)] border border-white/40 /* Senior Shadow Logic: Glow + Depth */ shadow-[0_10px_20px_rgba(76,195,255,0.4),0_5px_15px_rgba(37,66,121,0.1)] hover:shadow-[0_15px_30px_rgba(76,195,255,0.6),0_10px_20px_rgba(37,66,121,0.2)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h3 class="font-bold text-black text-[13px] sm:text-xl lg:text-[22px] mb-1 sm:mb-4">Quality</h3>
+								<p class="text-black/80 font-medium leading-tight text-[10px] sm:text-sm md:text-base">
+									We ensure that each course meets the highest standards.
+								</p>
+							</div>
+							<img
+								class="absolute right-2 bottom-2 w-[30%] max-w-[50px] sm:max-w-[80px] transition-transform duration-500 group-hover:scale-110"
+								src="src/images/hero-kasopat/img-1.svg"
+								alt="Quality" />
+						</li>
+
+						<li
+							class="group relative flex flex-col items-start overflow-hidden h-[160px] sm:h-[206px] rounded-[18px] sm:rounded-[24px] p-4 sm:p-6 transition-all duration-500 ease-out bg-[linear-gradient(135deg,#AFE5FF_0%,#8ED7FA_100%)] border border-white/40 shadow-[0_10px_20px_rgba(76,195,255,0.4),0_5px_15px_rgba(37,66,121,0.1)] hover:shadow-[0_15px_30px_rgba(76,195,255,0.6),0_10px_20px_rgba(37,66,121,0.2)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h3 class="font-bold text-black text-[13px] sm:text-xl lg:text-[22px] mb-1 sm:mb-4">Integrity</h3>
+								<p class="text-black/80 font-medium leading-tight text-[10px] sm:text-sm md:text-base">
+									We uphold honesty and transparency in everything we do.
+								</p>
+							</div>
+							<img
+								class="absolute right-2 bottom-2 w-[30%] max-w-[50px] sm:max-w-[80px] transition-transform duration-500 group-hover:scale-110"
+								src="src/images/hero-kasopat/img-2.svg"
+								alt="Integrity" />
+						</li>
+
+						<li
+							class="group relative flex flex-col items-start overflow-hidden h-[160px] sm:h-[206px] rounded-[18px] sm:rounded-[24px] p-4 sm:p-6 transition-all duration-500 ease-out bg-[linear-gradient(135deg,#AFE5FF_0%,#8ED7FA_100%)] border border-white/40 shadow-[0_10px_20px_rgba(76,195,255,0.4),0_5px_15px_rgba(37,66,121,0.1)] hover:shadow-[0_15px_30px_rgba(76,195,255,0.6),0_10px_20px_rgba(37,66,121,0.2)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h3 class="font-bold text-black text-[13px] sm:text-xl lg:text-[22px] mb-1 sm:mb-4">Student Success</h3>
+								<p class="text-black/80 font-medium leading-tight text-[10px] sm:text-sm md:text-base">
+									Every student's success is our priority.
+								</p>
+							</div>
+							<img
+								class="absolute right-2 bottom-2 w-[30%] max-w-[50px] sm:max-w-[80px] transition-transform duration-500 group-hover:scale-110"
+								src="src/images/hero-kasopat/img-3.svg"
+								alt="Success" />
+						</li>
+
+						<li
+							class="group relative flex flex-col items-start overflow-hidden h-[160px] sm:h-[206px] rounded-[18px] sm:rounded-[24px] p-4 sm:p-6 transition-all duration-500 ease-out bg-[linear-gradient(135deg,#AFE5FF_0%,#8ED7FA_100%)] border border-white/40 shadow-[0_10px_20px_rgba(76,195,255,0.4),0_5px_15px_rgba(37,66,121,0.1)] hover:shadow-[0_15px_30px_rgba(76,195,255,0.6),0_10px_20px_rgba(37,66,121,0.2)] hover:-translate-y-1">
+							<div class="relative z-10">
+								<h3 class="font-bold text-black text-[13px] sm:text-xl lg:text-[22px] mb-1 sm:mb-4">Global</h3>
+								<p class="text-black/80 font-medium leading-tight text-[10px] sm:text-sm md:text-base">
+									We provide globally-minded education.
+								</p>
+							</div>
+							<img
+								class="absolute right-2 bottom-2 w-[30%] max-w-[50px] sm:max-w-[80px] transition-transform duration-500 group-hover:scale-110"
+								src="src/images/hero-kasopat/img-4.svg"
+								alt="Global" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="pt-6 sm:pt-8 lg:pt-10 bg-[#EBF4FF]">
+			<div class="w-full max-w-full sm:max-w-[720px] lg:max-w-[1089px] mx-auto px-5 relative z-[1]">
+				<!-- decorative circles / vectors - hidden on small screens to avoid overlap -->
+				<div
+					class="hidden lg:block lg:w-[357px] lg:h-[357px] lg:bg-[#8ED7FA] lg:rounded-[50%] lg:absolute lg:top-[67px] lg:z-[-1] lg:left-[200px]"></div>
+				<div
+					class="hidden lg:block lg:w-[357px] lg:h-[357px] lg:bg-[#ffffff] lg:rounded-[50%] lg:absolute lg:top-[185px] lg:right-0 lg:z-[-1]"></div>
+				<img
+					class="hidden lg:block lg:absolute lg:top-[420px] lg:right-[50px] lg:z-[-1]"
+					src="src/images/hero/vector.svg"
+					alt="img" />
+
+				<!-- Top two cards: stack on small, row on desktop (keep original desktop sizes via lg: classes) -->
+				<div
+					class="w-full flex flex-col lg:flex-row items-start lg:items-center gap-6 lg:gap-0 h-auto lg:h-[198px] mb-6 lg:mb-10">
+					<!-- Philosophy card -->
+					<div
+						class="w-full lg:max-w-108 lg:py-3 lg:pr-6 lg:pl-6.5 rounded-lg p-4 border-2 border-[#05698D] bg-white lg:mr-42.25 lg:h-full">
+						<h3 class="font-[Gilroy] font-medium text-lg lg:text-2xl mb-2 lg:mb-3">Our Philosophy</h3>
+						<p class="font-[Gilroy] font-normal text-sm lg:text-base leading-5 lg:leading-4.5">
+							We believe in a learner-centered approach that blends traditional language instruction with modern technology. This
+							combination allows us to create a learning environment that is both engaging and effective, helping students build
+							strong language foundations while keeping pace with global advancements.
+						</p>
+					</div>
+
+					<!-- History card (with background image positioned on desktop) -->
+					<div
+						class="w-full bg-white rounded-lg p-4 border-2 border-[#05698D] lg:max-w-108 lg:pt-3 lg:pl-6 lg:bg-[url('/src/images/hero/kids.png')] lg:bg-no-repeat lg:bg-[position:180px_27px] lg:h-full">
+						<h3 class="font-[Gilroy] font-medium text-lg lg:text-2xl leading-[100%] mb-2 lg:mb-3">Our History</h3>
+						<p class="font-[Gilroy] font-normal text-sm lg:text-base max-w-full lg:max-w-[226px] leading-5 lg:leading-4.5">
+							(Currently under construction; we look forward to sharing our journey with you soon!)
+						</p>
+					</div>
+				</div>
+
+				<!-- Team summary card - center on mobile, same desktop size and look preserved via lg: classes -->
+				<div
+					class="w-full mx-auto bg-white rounded-lg p-4 border-2 border-[#05698D] lg:max-w-[707px] lg:pt-3 lg:pr-6 lg:pb-6 lg:pl-7.5 lg:flex lg:items-end lg:gap-[23px] mb-8 lg:mb-20">
+					<img class="mx-auto lg:mx-0 lg:flex object-cover mb-4 lg:mb-0" src="src/images/hero/logo.svg" alt="logo" />
+					<div class="w-full lg:max-w-[511px]">
+						<h3 class="font-[Gilroy] font-medium text-xl lg:text-2xl mb-1 lg:mb-2">Our Team</h3>
+						<p class="font-[Gilroy] font-medium text-sm lg:text-xs mb-2 lg:mb-4">Dedicated to Your Success</p>
+						<p class="font-[Gilroy] text-base font-normal leading-6">
+							Our experienced and passionate educators are committed to helping each student achieve their English language goals.
+							With expertise in various teaching methodologies, our team offers high-quality instruction, continuous support, and
+							individualized attention.
+						</p>
+					</div>
+				</div>
+
+				<!-- Team member 1: image left on desktop, stacked on mobile -->
+				<div class="w-full flex flex-col lg:flex-row items-center gap-6 mb-6 lg:mb-10 lg:max-w-[1049px]">
+					<img class="w-full max-w-[300px] mx-auto lg:mx-0 lg:w-auto" src="src/images/hero/mask.png" alt="mask-akahon" />
+					<div class="w-full lg:max-w-[800px]">
+						<h3 class="font-[Gilroy] font-medium text-xl lg:text-2xl mb-1 lg:mb-2">Michael John Escosio</h3>
+						<p class="font-[Gilroy] font-light text-sm mb-2 lg:mb-3">Chief Executive Officer</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-3">
+							Our experienced and passionate educators are committed to helping each student achieve their English language goals.
+							With expertise in various teaching methodologies, our team offers high-quality instruction, continuous support, and
+							individualized attention.
+						</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6">
+							He has gained extensive experience teaching English and Humanities in diverse settings, including international
+							schools and online platforms. His research interests include teacher anxiety, video-assisted instruction, and
+							student motivation. His findings have been presented at various conferences and contribute to the advancement of
+							English language teaching practices.
+						</p>
+					</div>
+				</div>
+
+				<!-- Team member 2: reversed on desktop, stacked on mobile -->
+				<div class="w-full flex flex-col lg:flex-row-reverse items-center gap-6 lg:max-w-[1049px]">
+					<img class="w-full max-w-[300px] mx-auto lg:mx-0 lg:w-auto" src="src/images/hero/opaxon.png" alt="opaxon" />
+					<div class="w-full lg:max-w-[800px]">
+						<div class="text-left lg:text-right max-w-full lg:max-w-[250px] ml-0 lg:ml-auto mb-2">
+							<h3 class="font-[Gilroy] font-medium text-xl lg:text-2xl mb-1 lg:mb-2">Le Thi Hong Phuong</h3>
+							<p class="font-[Gilroy] font-light text-sm mb-2 lg:mb-3">Center Director</p>
+						</div>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-3">
+							Le Thi Hong Phuong is a dedicated English language educator with over 21 years of experience. She has taught at four
+							different schools, including a prestigious institution in Cam Pha City, Quang Ninh Province. With a passion for
+							inspiring young minds, she has guided countless students to academic success, many of whom have achieved top honors
+							in talent competitions.
+						</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6">
+							Phuong holds a Bachelor's degree in English Language from Hanoi University and further enhanced her skills through a
+							3-month English language course at Segi College, Malaysia in 2012. She believes in the potential of every student
+							and is committed to creating engaging and effective learning experiences. Her dedication to education and her
+							collaborative approach to teaching have made her a beloved figure among students and staff alike.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-10 md:pt-16 pb-12 md:pb-20 bg-[#EBF4FF] relative z-[1] overflow-hidden">
+			<div class="max-w-[1200px] mx-auto px-5 sm:px-6 lg:px-8 relative">
+				<!-- Decorative circles -->
+				<div class="absolute -top-20 -left-20 w-[300px] md:w-[357px] h-[300px] md:h-[357px] bg-white rounded-full -z-10"></div>
+				<div
+					class="absolute -bottom-40 md:top-[890px] right-10 md:right-[420px] w-[250px] md:w-[357px] h-[250px] md:h-[357px] bg-white rounded-full -z-10 hidden md:block"></div>
+
+				<img src="src/images/hero/english.svg" alt="english" class="mx-auto mb-6 md:mb-8 w-24 md:w-auto" />
+
+				<h1 class="font-[Gilroy] font-medium text-3xl sm:text-4xl lg:text-5xl mb-6 md:mb-8 text-center">Our Courses</h1>
+
+				<p
+					class="font-[Gilroy] font-normal text-base sm:text-lg leading-6 max-w-[760px] mx-auto mb-10 md:mb-12 text-center px-4 sm:px-0">
+					English Plus offers programs tailored to every age group, skill level, and learning objective. Each course is designed
+					to foster language skills and cultural understanding, preparing students for academic and professional success.
+				</p>
+
+				<ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
+					<!-- Course cards -->
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">For Kids (3-7 years old)</h2>
+						<p class="font-[Gilroy] font-medium text-lg sm:text-[20px] mb-4">Course: Tiny Tots</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Objective</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-4">
+							To introduce young learners to English through fun, playful activities.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Outcomes</p>
+						<ul class="list-none space-y-2 text-base leading-6 mb-4">
+							<li>⦁ Develop basic listening and speaking skills.</li>
+							<li>⦁ Learn simple vocabulary and phrases.</li>
+							<li>⦁ Build confidence in using English.</li>
+						</ul>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<ul class="list-none space-y-2 text-base leading-6">
+							<li>⦁ Children respond to basic commands and questions.</li>
+							<li>⦁ Children sing simple English songs and rhymes.</li>
+							<li>⦁ Children engage in basic English conversations with ease.</li>
+						</ul>
+					</li>
+
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">For Kids (8-12 years old)</h2>
+						<p class="font-[Gilroy] font-medium text-lg sm:text-[20px] mb-4">Course: Junior Explorers</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Objective</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-4">
+							Enhance English skills through interactive and engaging activities.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Outcomes</p>
+						<ul class="list-none space-y-2 text-base leading-6 mb-4">
+							<li>⦁ Strengthen reading, writing, listening, and speaking skills.</li>
+							<li>⦁ Develop critical thinking and problem-solving abilities.</li>
+							<li>⦁ Gain cultural awareness and global perspective.</li>
+							<li>⦁ Use grammar and vocabulary correctly.</li>
+						</ul>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<ul class="list-none space-y-2 text-base leading-6">
+							<li>⦁ Children respond to basic commands and questions.</li>
+							<li>⦁ Children sing simple English songs and rhymes.</li>
+							<li>⦁ Children engage in basic English conversations with ease.</li>
+						</ul>
+					</li>
+
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">For Teens (13-18 years old)</h2>
+						<p class="font-[Gilroy] font-medium text-lg sm:text-[20px] mb-4">Course: Teen Achievers</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Objective</p>
+						<ul class="list-none space-y-2 text-base leading-6 mb-4">
+							<li>⦁ Level 1: Develop foundational English language skills.</li>
+							<li>⦁ Level 2: Enhance fluency and accuracy.</li>
+							<li>⦁ Level 3: Master advanced language skills for academic success.</li>
+							<li>⦁ Level 4: Achieve expert-level English proficiency.</li>
+						</ul>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<ul class="list-none space-y-2 text-base leading-6">
+							<li>⦁ Level 1: Communicate basic needs and ideas.</li>
+							<li>⦁ Level 2: Participate in everyday conversations and write simple texts.</li>
+							<li>⦁ Level 3: Understand and produce complex written texts.</li>
+							<li>⦁ Level 4: Communicate fluently and accurately in professional and academic contexts.</li>
+						</ul>
+					</li>
+
+					<!-- Images row 1 -->
+					<li>
+						<img src="src/images/hero/kids1.png" alt="Kids course 1" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+					<li>
+						<img src="src/images/hero/kids2.png" alt="Kids course 2" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+					<li>
+						<img src="src/images/hero/kids3.png" alt="Kids course 3" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">Course: IELTS Preparation</h2>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Objective</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-4">
+							Equip students with the skills and confidence to achieve their target IELTS band score.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Outcomes</p>
+						<ul class="list-none space-y-2 text-base leading-6 mb-4">
+							<li>⦁ Master essential IELTS exam strategies.</li>
+							<li>⦁ Improve reading, writing, listening, and speaking.</li>
+							<li>⦁ Boost confidence for the IELTS exam.</li>
+						</ul>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<ul class="list-none space-y-2 text-base leading-6">
+							<li>⦁ Understand complex academic texts and lectures.</li>
+							<li>⦁ Write structured academic essays and reports.</li>
+							<li>⦁ Speak fluently on a range of topics.</li>
+							<li>⦁ Reach desired IELTS band scores.</li>
+						</ul>
+					</li>
+
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">Online Learning</h2>
+
+						<p class="text-black text-base leading-6 mb-4">
+							<span class="font-semibold">Online Kids Classes:</span> Interactive, engaging sessions designed for young learners
+							to improve listening, speaking, and vocabulary through online learning platforms.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Outcomes</p>
+						<p class="font-[Gilroy] text-base leading-6 mb-4">Develop essential language skills for online communication.</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<p class="font-[Gilroy] text-base leading-6 mb-4">
+							Children actively participate and complete assignments independently.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-black mb-2">Online IELTS Prep:</p>
+						<p class="font-[Gilroy] font-normal text-base leading-6 mb-2">
+							A flexible, accessible option for those preparing for the IELTS exam.
+						</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Outcomes</p>
+						<p class="font-[Gilroy] text-base leading-6 mb-4">Familiarize with IELTS strategies and build confidence.</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<p class="font-[Gilroy] text-base leading-6">
+							Students effectively analyze performance, apply exam strategies, and achieve target scores.
+						</p>
+					</li>
+
+					<li class="course-card">
+						<h2 class="font-[Gilroy] font-semibold text-xl sm:text-2xl mb-3 leading-tight">Summer Camps</h2>
+						<p class="font-[Gilroy] font-medium text-lg sm:text-[20px] mb-4">Course: Immerse Yourself in English</p>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Objective</p>
+						<ul class="list-none space-y-2 text-base leading-6 mb-4">
+							<li>⦁ Improve overall language proficiency.</li>
+							<li>⦁ Foster cultural awareness and a global outlook.</li>
+							<li>⦁ Build confidence using English in real-life scenarios.</li>
+						</ul>
+
+						<p class="font-[Gilroy] font-semibold text-base text-[#254279] mb-2">Achievements</p>
+						<ul class="list-none space-y-2 text-base leading-6">
+							<li>⦁ Effectively communicate with native English speakers.</li>
+							<li>⦁ Understand cultural nuances through diverse activities.</li>
+							<li>⦁ Form friendships with peers from around the world.</li>
+						</ul>
+					</li>
+
+					<!-- Images row 2 -->
+					<li>
+						<img src="src/images/hero/kids4.png" alt="Kids course 4" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+					<li>
+						<img src="src/images/hero/kids5.png" alt="Kids course 5" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+					<li>
+						<img src="src/images/hero/kids6.png" alt="Kids course 6" class="w-full h-auto rounded-lg shadow-md object-cover" />
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="pt-16 sm:pt-24 lg:pt-[143px] pb-16 sm:pb-20 lg:pb-[100px] bg-[#EBF4FF]">
+			<div class="max-w-[1051px] px-4 sm:px-6 lg:px-0 mx-auto">
+				<h2 class="font-medium text-2xl sm:text-3xl lg:text-4xl leading-tight pb-3 text-center">Our Teachers</h2>
+				<p class="font-semibold text-sm sm:text-base leading-tight pb-4 text-center">Profiles Coming Soon</p>
+				<p class="font-normal text-sm sm:text-base leading-relaxed pb-16 sm:pb-20 text-center">
+					Meet our skilled instructors soon! Their dedication to language excellence makes every lesson impactful and rewarding.
+				</p>
+
+				<h2 class="font-medium text-2xl sm:text-3xl lg:text-4xl leading-tight pb-4 text-center">Reviews</h2>
+				<p class="font-semibold text-sm sm:text-base leading-relaxed pb-16 sm:pb-20 text-center">
+					(Data is being collected. Content to be updated shortly.)
+				</p>
+
+				<h2 class="font-medium text-2xl sm:text-3xl lg:text-4xl leading-tight pb-6 text-center">Our Partners</h2>
+				<p class="font-normal text-sm sm:text-base leading-relaxed pb-10 text-center">
+					We are proud to partner with globally renowned educational publishers to provide the highest quality resources:
+				</p>
+
+				<ul class="justify-between flex flex-col lg:flex-row items-center lg:items-end gap-10 lg:gap-6 pb-20">
+					<li class="max-w-[360px] text-center lg:text-left">
+						<p class="font-normal text-sm sm:text-base leading-relaxed pb-4">
+							<span class="font-semibold">Scholastic:</span> A leader in children's literature and educational materials.
+						</p>
+						<img
+							class="w-full max-w-[360px] h-auto mx-auto lg:mx-0"
+							src="src/images/hero-kasopat/education.svg"
+							alt="education" />
+					</li>
+
+					<li class="max-w-[360px] text-center lg:text-left">
+						<p class="font-normal text-sm sm:text-base leading-relaxed pb-4">
+							<span class="font-semibold">Cambridge University Press:</span> Offers top-tier educational tools for English
+							language learners.
+						</p>
+						<img
+							class="w-full max-w-[360px] h-auto mx-auto lg:mx-0"
+							src="src/images/hero-kasopat/cambridge.svg"
+							alt="cambridge" />
+					</li>
+
+					<li>
+						<img class="w-32 sm:w-40 lg:w-[191px] h-auto" src="src/images/hero-kasopat/bigban.svg" alt="bigban" />
+					</li>
+				</ul>
+
+				<h2 class="font-medium text-2xl sm:text-3xl lg:text-4xl leading-tight pb-6 text-center">News and Events</h2>
+				<p class="font-normal text-sm sm:text-base leading-relaxed pb-20 text-center">
+					Stay updated with our latest events, activities, and announcements.
+				</p>
+
+				<h2 class="font-medium text-2xl sm:text-3xl lg:text-4xl leading-tight pb-6 text-center">
+					Frequently Asked Questions (FAQ)
+				</h2>
+				<p class="font-normal text-sm sm:text-base leading-relaxed text-center">
+					(Coming soon. Check back for answers to common questions about our programs, enrollment, and more.)
+				</p>
+			</div>
+		</section>
+
+		<footer
+			class="mt-16 md:mt-[100px] pt-8 md:pt-6 pb-10 md:pb-[37px] bg-[#254279] rounded-tl-[60px] md:rounded-tl-[106px] rounded-br-[60px] md:rounded-br-[106px] overflow-hidden">
+			<div class="max-w-[1000px] mx-auto px-5 sm:px-6 lg:px-8">
+				<h2 class="text-white text-3xl sm:text-4xl font-medium mb-8 md:mb-10 text-center">Contact Us</h2>
+
+				<div class="flex flex-col md:flex-row flex-wrap justify-between gap-8 md:gap-0">
+					<!-- Head Office -->
+					<div class="w-full md:w-auto md:max-w-[266px] text-center md:text-left">
+						<h3 class="mb-3 text-xl md:text-[20px] font-medium text-white">Head Office</h3>
+						<p class="text-base text-white font-normal mb-4 leading-relaxed">
+							Viet Phil International Education JSC<br />
+							Nguyễn Văn Linh, Phúc Đồng, Long Biên, Hà Nội
+						</p>
+						<div class="flex items-center justify-center md:justify-start gap-2">
+							<span class="text-white font-semibold text-base">Email:</span>
+							<a href="mailto:infor.vietphiledu@gmail.com" class="text-white text-base hover:underline">
+								infor.vietphiledu@gmail.com
+							</a>
+						</div>
+					</div>
+
+					<!-- English Plus Ocean Park 3 -->
+					<div class="w-full md:w-auto md:max-w-[267px] text-center md:text-left">
+						<h3 class="mb-3 text-xl md:text-[20px] font-medium text-white">English Plus Ocean Park 3</h3>
+						<p class="text-base text-white font-normal mb-4 leading-relaxed">
+							Phố Biển - 08, Vinhomes Ocean Park 3,<br />
+							Nghĩa Trụ, Văn Giang, Hưng Yên
+						</p>
+						<p class="text-white text-base font-semibold mb-3">
+							Phone:
+							<a href="tel:+84942146811" class="font-normal hover:underline">+84 942 146 811</a>
+						</p>
+						<p class="text-base font-semibold text-white">
+							Email:
+							<a href="mailto:info@englishplus.edu.vn" class="font-normal hover:underline"> info@englishplus.edu.vn </a>
+						</p>
+					</div>
+
+					<!-- English Plus Ha Long -->
+					<div class="w-full md:w-auto md:max-w-[216px] text-center md:text-left">
+						<h3 class="mb-2 text-xl md:text-[20px] font-medium text-white">English Plus Ha Long</h3>
+						<p class="text-base text-white font-normal mb-3">(Opening Soon)</p>
+						<p class="text-base text-white font-normal mb-4">Hạ Long, Quảng Ninh</p>
+						<p class="text-base font-semibold text-white">
+							Email:
+							<a href="mailto:info@englishplus.edu.vn" class="font-normal hover:underline"> info@englishplus.edu.vn </a>
+						</p>
+					</div>
+				</div>
+
+				<!-- Bottom part: logo + text -->
+				<div class="mt-10 md:mt-12 flex flex-col sm:flex-row items-center sm:items-end gap-6 md:gap-5">
+					<img
+						src="src/images/footer/logo-footer.svg"
+						alt="English Plus Footer Logo"
+						class="w-32 sm:w-40 md:w-auto h-auto flex-shrink-0" />
+					<p class="text-sm sm:text-base font-light text-white text-center sm:text-left leading-relaxed max-w-[700px]">
+						English Plus operates under VIET Phil International Education Joint Stock Company, headquartered at Nguyễn Văn Linh,
+						Phúc Đồng, Long Biên, Hà Nội, Vietnam. Registered with Business Certificate No. 0110860939, issued by the Hanoi
+						Department of Planning and Investment.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<style>
+			.course-card {
+				background: linear-gradient(135.67deg, #afe5ff 7.09%, rgba(175, 229, 255, 0.6) 56.09%, #afe5ff 97.29%);
+				padding: 1.5rem;
+				border-radius: 10px;
+				border: 1px solid #05698d;
+				transition:
+					transform 0.2s ease,
+					box-shadow 0.2s ease;
+			}
+
+			.course-card:hover {
+				transform: translateY(-4px);
+				box-shadow: 0 10px 25px rgba(5, 105, 141, 0.15);
+			}
+
+			@media (max-width: 640px) {
+				.course-card {
+					padding: 1.25rem;
+				}
+				h2 {
+					font-size: 1.25rem !important;
+				}
+				p,
+				li {
+					font-size: 0.95rem !important;
+				}
+			}
+
+			@media (min-width: 641px) and (max-width: 1023px) {
+				.course-card {
+					padding: 1.75rem;
+				}
+			}
+		</style>
+		<script src="src/js/main.js"></script>
+	</body>
+</html>
